@@ -1,0 +1,169 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+    max-width: 1920px;
+    font-family: Montserrat;
+    margin: 0;
+
+}
+
+.logo {
+    width: 79px;
+    height: 79px;
+}
+
+.wrapper header {
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.link a {
+    color: #774E2E;
+    text-decoration: none;
+    padding: 0 0 0 50px;
+}
+
+.title {
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    align-items: center;
+    color: #774E2E;
+}
+
+.block_1 h1 {
+    font-size: 110px;
+    margin: 0;
+}
+
+.section {
+    display: flex;
+    padding: 129px 0 0 0;
+}
+
+.block_1 span {
+    color: #F37F34;
+}
+
+.block_1 p {
+    font-size: 16px;
+}
+
+.block_1 button {
+    background-color: #774E2E;
+    padding: 15px 30px;
+    color: white;
+    border: 0;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+}
+
+.block_1 button a {
+    text-decoration: none;
+    color: white;
+}
+
+.wrapper .price {
+    display: flex;
+    margin: 60px 0 0 0;
+    color: #774E2E;
+    align-items: center;
+    background-color: #FFF9EA;
+    flex-direction: column;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 52px;
+    margin: 50px 0 0 0;
+    max-width: 1170px;
+}
+
+.cards span {
+    color: #F37F34;
+}
+
+.card {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin: 50px 20px;
+    color: #774E2E;
+    font-size: 20px;
+
+}
+
+nav {
+    display: flex;
+    padding: 0 114px 150px 60px;
+    max-width: 1170px;
+}
+
+.card p {
+    margin: 35px;
+}
+
+.servises {
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    align-items: center;
+    color: #774E2E;
+}
+
+.blocks_1 h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+.section_2 {
+    display: flex;
+    padding: 129px 0 0 0;
+    margin: 0 0 100px 0;
+}
+
+.blocks_1 span {
+    color: #F37F34;
+}
+
+.blocks_1 p {
+    font-size: 16px;
+    margin: 60px 0;
+}
+
+
+footer {
+    
+    background-color: #774E2E;
+    display: flex;
+    padding: 30px;
+}
+
+.footers {
+    display: flex;
+    max-width: 1170px;
+    color: white;
+    margin: auto;
+  
+}
+
+.wrapper .footers {
+    display: flex;
+    align-items: center;
+}
+
+.footers p {
+    margin: 0 127px;
+    font-size: 34px;
+}
